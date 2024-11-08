@@ -7,7 +7,7 @@ const Home = () => {
   function sendData(event) {
     event.preventDefault();
     if (inputText.trim() !== "") {
-      setToDo([...toDo, inputText.trim()]);//De expansión
+      setToDo([...toDo, inputText.trim()]);
       setInput("");
     }
   }
